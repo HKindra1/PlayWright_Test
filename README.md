@@ -42,11 +42,22 @@ node 01_Chapter_JavaScript/1_HelloWorld.js
 
 ## Suggested learning path
 
-1. Start with basic JavaScript files
+1. Start with basic JavaScript syntax and output
 2. Practice variables, conditions, and loops
 3. Solve array and string programs
 4. Move on to pattern and logic-based exercises
-5. Then continue with Playwright automation learning
+5. Learn functions and problem-solving
+6. Build confidence with mini projects
+7. Then continue with Playwright automation learning
+
+## Beginner roadmap
+
+- Basics: variables, data types, operators
+- Control flow: if/else, switch, loops
+- Data structures: arrays, objects, strings
+- Logic practice: patterns, prime numbers, palindrome, factorial
+- Intermediate: functions, DOM basics, reusable logic
+- Automation: Playwright, selectors, assertions, test flow
 
 ## Notes
 
