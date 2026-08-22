@@ -1,0 +1,10 @@
+let num=47;
+let prime = 'YES';
+for (let i = 2; i < num; i++)
+{
+    if (num % i === 0)
+    { prime = 'NO'; 
+    break;
+    }
+}
+console.log(prime);

@@ -1,0 +1,9 @@
+let str = 'racecarabc';
+//let isPalindrome = true;
+let str2='';
+let len = str.length;
+for (let i = len-1; i >=0; i--)
+{
+str2 = str2 + str[i];
+}
+console.log(str2);
