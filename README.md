@@ -59,6 +59,20 @@ node 01_Chapter_JavaScript/1_HelloWorld.js
 - Intermediate: functions, DOM basics, reusable logic
 - Automation: Playwright, selectors, assertions, test flow
 
+## Project status
+
+- JavaScript basics practice: in progress
+- Logic and pattern exercises: in progress
+- Array and string programs: planned
+- Playwright learning: upcoming
+
+## Next steps
+
+- Continue solving JavaScript exercises
+- Review code and improve logic
+- Practice writing cleaner and reusable solutions
+- Move to Playwright automation after fundamentals are strong
+
 ## Notes
 
 This repository is intended for learning and practice. Keep code simple, readable, and well-organized.
