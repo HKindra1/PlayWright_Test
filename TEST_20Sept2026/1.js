@@ -1,16 +1,12 @@
 
 
-function normalizeJsBasicsLabel (label)
+function isValidJsBasicsIdentifier(name)
 {
-    const normalizedLabel = label.trim().toLowerCase()
-        .replace(/@@/g, '-')
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-')
-        .replace(/-+/g, '-')
-        .replace(/^-|-$/g, '');
-    const normalizedResult = normalizedLabel ? "js-basic-" + normalizedLabel : "js-basic";
-    console.log(normalizedResult);
-    return normalizedResult;
+    const normalizedLabel = name.trim().toLowerCase();
+    const containsReservedWord = /\b(let|const|var|class|function|return)\b/.test(normalizedLabel);
+    const isValid = normalizedLabel !== "" && !/^\d/.test(normalizedLabel) && !containsReservedWord;
+    console.log(isValid);
+    return isValid;
 }
 
-normalizeJsBasicsLabel(" ")
+isValidJsBasicsIdentifier("let")
